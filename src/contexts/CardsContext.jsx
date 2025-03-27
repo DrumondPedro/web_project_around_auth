@@ -39,7 +39,7 @@ export function CardsProvider({ children }) {
     try {
       const cardDesliked = await client.dislike(`/cards/${id}/likes`);
       executor(cardDesliked);
-    } catch (err) {
+    } catch (error) {
       console.log(`DELETE - /cards/${id}/likes -`, error);
     }
   }
@@ -48,7 +48,7 @@ export function CardsProvider({ children }) {
     try {
       await client.deleteCard(`/cards/${selectedCardId}`);
       setCards(cards.filter((card) => card._id !== selectedCardId));
-    } catch (err) {
+    } catch (error) {
       console.log(`DELETE - /cards/${selectedCardId} -`, error);
     }
   }

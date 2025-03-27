@@ -19,6 +19,7 @@ class Api {
 
       return res.json();
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
@@ -43,6 +44,7 @@ class Api {
 
       return res.json();
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
@@ -62,6 +64,7 @@ class Api {
 
       return res.json();
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
@@ -81,9 +84,9 @@ class Api {
 
       return res.json();
     } catch (error) {
+      console.log(error);
       throw error;
     }
-    r;
   }
 
   async deleteCard(path) {
@@ -101,6 +104,7 @@ class Api {
 
       return res.json();
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
@@ -120,6 +124,7 @@ class Api {
 
       return res.json();
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
@@ -140,6 +145,7 @@ class Api {
 
       return res.json();
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
@@ -164,6 +170,7 @@ class Api {
 
       return res.json();
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
@@ -185,6 +192,7 @@ class Api {
 
       return res.json();
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }

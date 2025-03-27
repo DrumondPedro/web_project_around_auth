@@ -90,6 +90,7 @@ function Signin() {
       navigate(redirectPath);
     } catch (error) {
       handleOpenPopup(editInfoTooltipError);
+      console.log(error);
     } finally {
       setIsLoading(false);
     }

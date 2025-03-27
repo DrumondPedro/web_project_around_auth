@@ -22,6 +22,7 @@ class Auth {
 
       return res.json();
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
@@ -45,6 +46,7 @@ class Auth {
 
       return res.json();
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }

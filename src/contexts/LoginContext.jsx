@@ -9,7 +9,7 @@ export function LoginProvider({ children }) {
 
   const handleRegister = async (registerData) => {
     try {
-      const data = await auth.register('/signup', registerData);
+      await auth.register('/signup', registerData);
       return;
     } catch (error) {
       console.log(`POST /signup`, error);
